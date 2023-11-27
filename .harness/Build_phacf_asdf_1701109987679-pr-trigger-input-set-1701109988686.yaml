@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_phacf_asdf_1701109987679-pr-trigger-input-set
+  identifier: Build_phacf_asdf_1701109987679prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_phacf_asdf_1701109987679
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
